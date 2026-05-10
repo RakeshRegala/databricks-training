@@ -1,8 +1,8 @@
-**Select all columns from the employee table**
+--1.Select all columns from the employee table--
 
 select * from Employee;
 
-**Select only name and salary column from the employee table**
+--2.Select only name and salary column from the employee table**
 
 Select name,salary from Employee
 
