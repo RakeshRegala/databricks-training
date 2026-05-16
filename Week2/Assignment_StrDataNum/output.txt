@@ -1,0 +1,4 @@
+emp_id	LOWER(emp_name)	Attendance_percentage	MONTHNAME(record_date)	DIFF_TOTAL_PRESENT	attendance_status
+1	karthik	93	January	2	Excellent
+2	veena	73	January	8	Poor
+3	ravi	60	January	12	Poor
