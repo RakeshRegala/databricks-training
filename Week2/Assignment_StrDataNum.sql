@@ -15,6 +15,11 @@ SELECT
     UPPER(emp_name) AS upper_name,
 
     LOWER(emp_name) AS lower_name,
+    
+    CONCAT(
+        UPPER(LEFT(emp_name,1)),
+        LOWER(SUBSTRING(emp_name,2))
+    ) AS camel_case,
 
     base_salary + IFNULL(bonus,0) AS total_income,
 
